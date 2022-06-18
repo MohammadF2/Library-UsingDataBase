@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.button{
+    -fx-background-radius: 10;
+    -fx-background-color: transparent;
+    -fx-border-color: #9F2AA7;
+    -fx-border-radius: 10;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-family: 'Raleway', sans-serif;
+}
+
+
+.button:hover{
+    -fx-background-color: #651A6A;
+}
+
+.button:pressed{
+    -fx-background-color: #511556;
+}
+
+.text-field{
+    -fx-background-radius: 10;
+    -fx-border-color: #9F2AA7;
+    -fx-border-radius: 10;
+}
+
+.combo-box{
+    -fx-background-radius: 10;
+    -fx-border-color: #9F2AA7;
+    -fx-border-radius: 10;
+    -fx-background-color: white;
+}
+
+.table-view{
+    -fx-background-radius: 10;
+    -fx-border-color: #9F2AA7;
+    -fx-border-radius: 10;
+    -fx-background-color: transparent;
+}
+
+#buttonCurr{
+    -fx-background-radius: 10;
+    -fx-background-color: #511556;
+    -fx-border-color: #9F2AA7;
+    -fx-border-radius: 10;
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-family: 'Raleway';
+}
+
+#buttonCurr:hover{
+
+}
+
+#buttonInv{
+    -fx-background-radius: 10;
+    -fx-background-color: #511556;
+    -fx-border-color: #9F2AA7;
+    -fx-border-radius: 10;
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+    -fx-font-family: 'Raleway';
+}
+
+#buttonInv:hover{
+    -fx-background-color: #651A6A;
+    -fx-text-fill: white;
+}
+
+#buttonInv:pressed {
+    -fx-background-color: #511556;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-font-size: 15px;
+    -fx-font-family: 'Raleway', sans-serif;
+
+}
+
+#labelTable {
+    -fx-text-fill: #511556;
+}
+
+.table-view{
+    -fx-background-radius: 10;
+    -fx-border-color: #9F2AA7;
+    -fx-border-radius: 10;
+    -fx-background-color: transparent;
+}
